@@ -1,6 +1,7 @@
 import Sort.BubbleSort
 import Sort.InsertionSort
 import Sort.SelectionSort
+import Sort.ShellSort
 import kotlin.random.Random
 
 fun main() {
@@ -30,6 +31,14 @@ fun main() {
     val insertionSort: InsertionSort = InsertionSort()
     val array4=insertionSort.exec(array)
     for (i in array4) print(" $i ")
+    println()
+
+
+    //test ShellSort
+    println("test ShellSort")
+    val ShellSort: ShellSort = ShellSort()
+    val array5=insertionSort.exec(array)
+    for (i in array5) print(" $i ")
     println()
 
 
